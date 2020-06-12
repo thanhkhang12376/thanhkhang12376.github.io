@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: bangers;
+	
+	
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url("../damnuglywlrd.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	height: 1000px;
+	
+		
+}
+ul{
+	float:left;
+	list-style-type:circle;
+	margin: 20px;
+}
+ul li{
+	display:inline-block;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 3px 12.7px;
+	border: 2px solid transparent;
+	transition: 0.44s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li a.active a{
+	background-color: white;
+	color: black;
+	
+}
+.logo img{
+	float: right;
+	height: auto;
+	width: 150px;
+}
+.logo img:hover{
+	padding: 1px 5px;
+	border: 2px solid transparent #FFFFFF;
+	transition: 0.44s ease;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.button{
+	position: absolute;
+	top: 57%;
+	left: 51%;
+	transform: translate(-50%,-50%);
+	
+}
+.btn{
+	border: 3px solid transparent #FFFFFF;
+	transition: 0.45s ease;
+	padding: 15px 30px;
+	color: #FFF;
+	text-decoration: none;
+	font-style: bold;
+	font-size: 30px
+	
+	
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+.rows{
+	margin: 10px 0;
+	width: 100%;
+	
+}
+div{
+	display: block;
+}
